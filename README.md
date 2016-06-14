@@ -12,15 +12,18 @@ As you can see you can select an element using this method, not unlike JQuery. T
 ##Installation
 1. Download Validator.js
 2. Include Validator.js in your html file.
-```html
-<script src="validator.js"></script>
-```
+
+    ```html
+    <script src="validator.js"></script>
+    ```
+
 3. Create a script in your footer to contain your callback functions. We will go over the callback functions later in this Readme.
-```javascript
-<script type="text/javascript">
-    //Callback functions here                
-</script>
-```
+
+    ```javascript
+    <script type="text/javascript">
+        //Callback functions here                
+    </script>
+    ```
 
 ##Setup
 Setting up Validator,js is really easy. All you have to do is follow these steps:
