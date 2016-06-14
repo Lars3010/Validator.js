@@ -16,7 +16,7 @@ As you can see you can select an element using this method, not unlike JQuery. T
 <script src="validator.js"></script>
 ```
 3. Create a script in your footer to contain your callback functions. We will go over the callback functions later in this Readme.
-```html
+```javascript
 <script type="text/javascript">
     //Callback functions here                
 </script>
@@ -25,7 +25,7 @@ As you can see you can select an element using this method, not unlike JQuery. T
 ##Setup
 Setting up Validator,js is really easy. All you have to do is follow these steps:
 1.Make a form and give it the Id “vl-form”.
-```javascript
+```html
 <form id="vl-form">
     <!-- rest of form here -->
 </form>
