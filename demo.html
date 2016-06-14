@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Demo Validator.js</title>
+        <script src="validator.js"></script>
+        <link rel="stylesheet" type= "text/css" href=style.css>
+    </head>
+    <body>
+        <form id="vl-form">
+            <label for="vl-inputname">Username: </label><input type="text" name="vl-inputname" id="vl-name" class="vl-input"><br><br>
+            <label for="vl-inputemail">Email: </label><input type="text" name="vl-inputemail" id="vl-email" class="vl-input"><br><br>
+            <label for="vl-inputpass">Password: </label><input type="text" name="vl-inputpass" id="vl-password" class="vl-input"><br><br>
+            <label for="vl-inputpass">Custom (Numbers only): </label><input type="text" name="vl-inputpass" id="vl-custom" class="vl-input"><br><br>
+            <input type="submit" value="Verzenden">
+        </form>
+        <footer>
+            <script type="text/javascript">
+                /*seperated callback functions*/
+                
+                // Password-----------------------------------------------------------------------
+                function passSuccess()
+                {
+                    console.log("password success");
+                    Val("#vl-password").style.borderColor = "green";
+                }
+                
+                function passError()
+                {
+                    console.log("password error");
+                    Val("#vl-password").style.borderColor = "red";
+                }
+                
+                // Full Name-----------------------------------------------------------------------
+                function nameSuccess()
+                {
+                    console.log("name success");
+                    Val("#vl-name").style.borderColor = "green";
+                }
+                
+                function nameError()
+                {
+                    console.log("name error");
+                    Val("#vl-name").style.borderColor = "red";
+                }
+                
+                // Email -----------------------------------------------------------------------
+                function emailSuccess()
+                {
+                    console.log("email success");
+                    Val("#vl-email").style.borderColor = "green";
+                }
+                
+                function emailError()
+                {
+                    console.log("email error");
+                    Val("#vl-email").style.borderColor = "red";
+                }
+                
+                // Custom -----------------------------------------------------------------------
+                function customSuccess()
+                {
+                    console.log("custom success");
+                    Val("#vl-custom").style.borderColor = "green";
+                }
+                
+                function customError()
+                {
+                    console.log("custom error");
+                    Val("#vl-custom").style.borderColor = "red";
+                } 
+                
+                /*
+                executes the validation
+                */
+                Val("#vl-password").password(passSuccess, passError);
+                Val("#vl-name").fullname(nameSuccess, nameError);
+                Val("#vl-email").email(emailSuccess, emailError);
+                Val("#vl-custom").custom(/^\d+$/,customSuccess,customError); //custom function requires regex and the succes and error functions.
+            </script>
+        </footer>
+    </body>
+</html>

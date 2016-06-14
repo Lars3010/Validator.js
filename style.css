@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.vl-input
+{
+    border: 2px solid #ccc;
+}
+
+.vl-input:focus
+{
+    outline: none;
+}
