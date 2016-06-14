@@ -1,5 +1,6 @@
 # Validator.js
 Validator.js is a tiny javascript framework designed to make client side textbox validation easier. It will validate on input and use a predefined regex so you dont have to search for one. If you still want to use your own regex or expand on the system, you can do that too.
+[Demo](https://jsfiddle.net/Lars3010/kc2L8rqe/4/)
 
 ## Syntax
 Before we get started we will go over the syntax. Validation.js has its own selector.
