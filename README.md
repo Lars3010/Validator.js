@@ -24,13 +24,13 @@ As you can see you can select an element using this method, not unlike JQuery. T
 
 ##Setup
 Setting up Validator,js is really easy. All you have to do is follow these steps:
-1.Make a form and give it the Id “vl-form”.
+1. Make a form and give it the Id “vl-form”.
 ```html
 <form id="vl-form">
     <!-- rest of form here -->
 </form>
 ```
-2.Next create the textboxes and give them the following Ids:
+2. Next create the textboxes and give them the following Ids:
   *vl-name: Validates a name inputfield.
   *vl-email: Validates an email inputfield.
   *vl-password: Validates a password inputfield.
