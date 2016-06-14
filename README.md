@@ -12,7 +12,7 @@ As you can see you can select an element using this method, not unlike JQuery. T
 ##Installation
 1. Download Validator.js
 2. Include Validator.js in your html file.
-```javascript
+```html
 <script src="validator.js"></script>
 ```
 3. Create a script in your footer to contain your callback functions. We will go over the callback functions later in this Readme.
@@ -31,7 +31,7 @@ Setting up Validator,js is really easy. All you have to do is follow these steps
 </form>
 ```
 2.Next create the textboxes and give them the following Ids:
-vl-name: Validates a name inputfield.
-vl-email: Validates an email inputfield.
-vl-password: Validates a password inputfield.
-vl-custom: Validates a custom regex.
+    *vl-name: Validates a name inputfield.
+    *vl-email: Validates an email inputfield.
+    *vl-password: Validates a password inputfield.
+    *vl-custom: Validates a custom regex.
