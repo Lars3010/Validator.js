@@ -8,3 +8,10 @@ Val("#IdHere");
 ```
 
 As you can see you can select an element using this method, not unlike JQuery. That’s all the syntax you need to know and you could even replace it with pure javascript or another framework if you prefer.
+
+##Installation
+1. Download Validator.js
+2. Include Validator.js in your html file.
+```javascript
+<script src="validator.js"></script>
+```
