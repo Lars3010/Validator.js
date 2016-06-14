@@ -15,3 +15,10 @@ As you can see you can select an element using this method, not unlike JQuery. T
 ```javascript
 <script src="validator.js"></script>
 ```
+3. Create a script in your footer to contain your callback functions. We will go over the callback functions later in this Readme.
+```javascript
+<script type="text/javascript">
+    //Callback functions here                
+</script>
+```
+
